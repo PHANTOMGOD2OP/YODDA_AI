@@ -19,9 +19,9 @@ async function main() {
         { name: 'AI and Robots' },
         { name: 'Humor and Entertainment' },
         { name: 'Adventure and Exploration' },
-        { name: 'Educational' },
+        { name: 'Education & Sciences' },
         { name: 'Specialty and Niche' },
-        { name: 'NSFW*' },
+        { name: 'Sports' },
       ],
     });
   } catch (error) {

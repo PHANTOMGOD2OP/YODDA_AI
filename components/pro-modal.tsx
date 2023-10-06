@@ -51,12 +51,12 @@ export const ProModal = () => {
       <DialogContent>
         <DialogHeader className="space-y-4">
           <DialogTitle className="text-center">
-            Upgrade to Pro
+            Join Premium
           </DialogTitle>
           <DialogDescription className="text-center space-y-2">
-            Create
-            <span className="text-sky-500 mx-1 font-medium">Custom AI</span>
-            Characters!
+            The best
+            <span className="text-sky-500 mx-1 font-medium">Yodda</span>
+            experience
           </DialogDescription>
         </DialogHeader>
         <Separator />

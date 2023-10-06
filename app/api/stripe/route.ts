@@ -43,8 +43,8 @@ export async function GET() {
           price_data: {
             currency: "USD",
             product_data: {
-              name: "Yodda Pro",
-              description: "Create Custom AI Characters"
+              name: "Yodda Premium",
+              description: "The best Yodda experience"
             },
             unit_amount: 999,
             recurring: {
