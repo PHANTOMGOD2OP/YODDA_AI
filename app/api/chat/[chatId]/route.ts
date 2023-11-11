@@ -55,7 +55,7 @@ export async function POST(
     const yoddaKey = {
       yoddaName: name!,
       userId: user.id,
-      modelName: "llama2-13b",
+      modelName: "mistral-7b",
     };
     const memoryManager = await MemoryManager.getInstance();
 
@@ -87,7 +87,7 @@ export async function POST(
       model:
         "a16z-infra/mistral-7b-v0.1:3e8a0fb6d7812ce30701ba597e5080689bef8a013e5c6a724fafb108cc2426a0",
       input: {
-        max_length: 2048,
+        max_length: 1024,
       },
       apiKey: process.env.REPLICATE_API_TOKEN,
       callbackManager: CallbackManager.fromHandlers(handlers),

@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { ModeToggle } from "@/components/mode-toggle";
 import { MobileSidebar } from "@/components/mobile-sidebar";
 import { useProModal } from "@/hooks/use-pro-modal";
+import { SearchInput } from "@/components/search-input";
 
 
 const font = Poppins ({
@@ -27,6 +28,7 @@ export const Navbar = ({
     const proModal = useProModal();
 
     return (
+
         <div className="fixed w-full z-50 flex justify-between items-center py-2 px-4 border-b border-primary/10 bg-secondary h-16">
             <div className="flex items-center">
             <MobileSidebar isPro={isPro} />
